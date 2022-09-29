@@ -25,19 +25,12 @@ export class MainPageComponent {
     }
   ]
 
-  nuevo: Personaje = {
-    nombre: 'Oswaldo',
-    poder: 14000
+  nuevo:Personaje={
+    nombre:'Gohan',
+    poder:20000
   }
 
-  agregar() {
-    console.log(this.nuevo)
-    this.personajes.push(this.nuevo);
-    this.nuevo={
-      nombre:'',
-      poder:0
-    }
-  }
+
 
 
 
