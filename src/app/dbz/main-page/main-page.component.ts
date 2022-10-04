@@ -10,30 +10,9 @@ import { Personaje } from '../interfaces/dbz.interface';
 })
 export class MainPageComponent {
 
-  personajes: Personaje[] = [
-    {
-      nombre: 'Goku',
-      poder: 15000
-    },
-    {
-      nombre: 'Vegeta',
-      poder: 9500
-    },
-    {
-      nombre: 'Gohan',
-      poder: 5500
-    }
-  ]
-
   nuevo: Personaje = {
     nombre: 'Gohan',
     poder: 20000
-  }
-
-  agregarNuevoPersonaje( argumento : Personaje) {
-    console.log(argumento);
-
-    this.personajes.push(argumento)
   }
 
 }
